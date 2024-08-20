@@ -1,0 +1,31 @@
+    body{
+        background-color: rgb(48, 46, 46);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 96vh;
+    }
+    .subscribe-button{
+        background-color: rgb(200, 0 ,0);
+        color: white;
+        border: none;
+        border-radius: 2px;
+        padding: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        vertical-align: top;
+        cursor: pointer;
+        transition: opacity 0.15s, background-color 0.15s;
+        content: 'SUBSCRIBE';
+    }
+
+    .subscribe-button:hover{
+        opacity: 0.8;
+    }
+    .subscribe-button:active{
+        background-color: rgb(146, 2, 2);
+    }
+
+
+
